@@ -1,0 +1,4 @@
+Function : _ZN6Korean7set_ageEi
+  store i32 %0, i32* %korean_age, align 8
+Function : _ZN7Student7set_ageEi
+  store i32 %0, i32* %age, align 8

@@ -1,0 +1,1 @@
+  %10 = load i64, i64* %__tmp, align 8
