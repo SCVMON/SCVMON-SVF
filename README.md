@@ -54,8 +54,8 @@ srcsnka ${single_llvm_ir_file} --source-file=${source_file} --sink-file=${sink_f
    - Find the IR in a specific function and add it as a sink
 3. e.g. 
     ```
-    Function : _ZN20AP_MotorsMulticopter22update_throttle_filterEv
-      %2 = getelementptr inbounds %class.AP_MotorsMulticopter, %class.AP_MotorsMulticopter* %this, i64 0, i32 0, i32 12
+    Function : _ZN20AP_MotorsMulticopter13output_to_pwmEf
+      %conv15 = fptosi float %pwm_output.0 to i162
     ```
 
 ### Include file
