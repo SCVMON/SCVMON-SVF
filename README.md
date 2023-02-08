@@ -17,7 +17,8 @@
 
 ## Install & Build
 ```bash
-git clone https://github.com/acorn421/SVF-SRCSNK
+git clone https://github.com/SCVMON/SCVMON-SVF.git
+sudo apt install cmake gcc g++ libtinfo-dev libz-dev zip wget
 
 ./build.sh
 ```
