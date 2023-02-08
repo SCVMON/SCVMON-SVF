@@ -22,13 +22,6 @@ sudo apt install cmake gcc g++ libtinfo-dev libz-dev zip wget
 ./build.sh
 ```
 
-## Test
-```bash
-./test_srcsnka.sh
-
-vim reachableNodes.dot
-```
-
 ## Run
 ```bash
 . ./setup.sh
